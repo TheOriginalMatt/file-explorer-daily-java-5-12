@@ -10,7 +10,7 @@ import java.lang.*;
 
 class FileExplorer {
 
-    File file;
+    private File file;
 
     /*
      * FileExplorer()
