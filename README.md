@@ -48,5 +48,5 @@ public class Parent {
     + Returns the names of the files contained in the given directory in a list.
 + `public String getFileContents() throws IllegalArgumentException, FileNotFoundException`
     + Returns the contents of the given file, line by line
-+ `agnosticGetContents()`
++ `agnosticGetContents() throws IllegalArgumentException, FileNotFoundException, IllegalAccessException`
     + Runs either .getFileContents() or .getContainedFiles() based on whether .getFile() returns a directory or file
